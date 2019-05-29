@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".Frag1"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_start_color"
+        android:id="@+id/matchTable">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text=" Last"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:text="Match"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="2nd Last"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="Match"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/match_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/match_info"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="IND "
+                android:layout_gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="18dp"
+                android:layout_column="3"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:text="PAK"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m2_t1"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="IND"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m2_t2"
+                android:layout_width="40dp"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="PAK"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mtoss"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Toss"
+
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_toss"
+                android:layout_width="37dp"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="W"
+                android:gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_toss"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="L"
+                android:gravity="center"
+                android:textColor="#574242"/>
+
+            <TextView
+                android:id="@+id/m2_t1_toss"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="L"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_toss"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="L"
+                android:gravity="center"
+                android:textColor="#574242"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mscore"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:shadowColor="@android:color/white"
+                android:text="Score"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_score"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:text="150/10"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_score"
+                android:layout_width="wrap_content"
+                android:layout_column="3"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:text="200/9" />
+
+            <TextView
+                android:id="@+id/m2_t1_score"
+                android:layout_height="match_parent"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="250/8"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_score"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="300/6"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/wkts_taken"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:shadowColor="@android:color/white"
+                android:text="Wickets Taken"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_wkts_taken"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="9"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_wkts_taken"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="6"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_wkts_taken"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="6"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_wkts_taken"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="9"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/itotal_6s"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Total 6S"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_6s"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="5"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_6s"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="5"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_6s"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="10"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_6s"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="15"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/itotal_4s"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Total 4S"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_4s"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="10"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_4s"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="12"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_4s"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="20"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_4s"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="21"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/iextras"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Extras"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_extras"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="10"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_extras"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="12"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_extras"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="12"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_extras"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="14"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/iop"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Op. Partnership"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_op"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="4"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_op"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="60"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_op"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="100"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_op"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="61"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/h_score"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Highest scorer"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_h_score"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="60"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_h_score"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="45"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_h_score"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="101"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_h_score"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="150" android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/h_wkt"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Highest wickets"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_h_wkts"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="3"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_h_wkts"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="3"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_h_wkts"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="5"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_h_wkts"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="4" android:layout_gravity="center"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mcatches"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Total Catches"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_catches"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="5"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_catches"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="6"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_catches"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="5"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_catches"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="6"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mresult"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Result"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/m1_t1_result"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="W"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m1_t2_result"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="W"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/m2_t1_result"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="L"
+                android:layout_gravity="center"
+                android:textColor="#574242" />
+
+            <TextView
+                android:id="@+id/m2_t2_result"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="W "
+                android:layout_gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

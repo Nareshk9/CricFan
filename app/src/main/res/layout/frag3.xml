@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical"
+    tools:context=".Frag3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginBottom="10px"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/aldrich"
+        android:text="Stadium Information"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shrinkColumns="2,3,4,5,6,7">
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:gravity="center"
+                android:text="Stadium Name"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="2"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:text="Venue"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="3"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:text="Temp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="4"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:text="Pitch Info"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:text="Feroz Shah Kotla"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="2"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:text="New Dehli"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="3"
+                android:includeFontPadding="true"
+                android:layout_width="wrap_content"
+                android:padding="3dip"
+                android:text="32"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="4"
+                android:includeFontPadding="true"
+                android:layout_width="wrap_content"
+                android:padding="3dip"
+                android:text="Dusty"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle"
+        android:includeFontPadding="true"
+        android:text="Last Two Match Summary"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/aldrich" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="51dp"
+                android:layout_column="2"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:text="Last"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:includeFontPadding="true"
+                android:padding="3dip"
+                android:text="Match"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_column="4"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="2nd Last"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_column="4"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Match"
+                android:textColor="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Match"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="1st Ing"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="2nd Ing"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="1st Ing"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="2nd Ing"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Score"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textColorLink="@android:color/black"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="230/9"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="300/6"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="200/10"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="260/8"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="6s"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="15"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="8"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="6"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="4s"
+                android:textColor="@color/colorAccent"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="15"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="30"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="14"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="16"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Catches"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="8"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="6"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="7"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="3"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Result"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="W"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="L"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="W"
+                android:gravity="center"
+                android:textColor="#574242"
+                app:fontFamily="@font/aldrich" />
+
+            <TextView
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="L"
+                android:gravity="center"
+                app:fontFamily="@font/aldrich" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

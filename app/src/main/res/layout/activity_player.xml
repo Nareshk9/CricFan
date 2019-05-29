@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".Player">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="Player"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:text="R"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:text="B"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:text="4s"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="6s"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:text="W"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:text="R"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:text="B"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:text="4s"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="6s"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:text="W"
+                    android:padding="3dip" />
+            </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:hint="Player Name"
+                android:padding="3dip"/>
+            <TextView
+                android:layout_column="2"
+                android:hint="1"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:hint="2"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="4"
+                android:hint="0"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="5"
+                android:hint="0"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="4"
+                android:hint="0"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:hint="45"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:hint="30"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="4"
+                android:hint="7"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="5"
+                android:text="1"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="4"
+                android:hint="0"
+                android:padding="3dip" />
+        </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:hint="Player Name"
+                    android:padding="3dip"/>
+                <TextView
+                    android:layout_column="2"
+                    android:hint="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="2"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="2"
+                    android:hint="45"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="3"
+                    android:hint="30"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="7"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="4"
+                    android:hint="0"
+                    android:padding="3dip" />
+            </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</FrameLayout>
